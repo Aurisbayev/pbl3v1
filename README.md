@@ -1,6 +1,6 @@
 This repository is PBL3 project
 
-[Comprehensive Document]((https://docs.google.com/document/d/1FaCzHLODb9P0Un0gVY7-5-csoc9tUCTVrOVX8tVLJjo/edit?tab=t.6jb8cjayhju4))
+[Comprehensive Document](https://docs.google.com/document/d/1FaCzHLODb9P0Un0gVY7-5-csoc9tUCTVrOVX8tVLJjo/edit?tab=t.6jb8cjayhju4)
 
 [GPS Routing](https://docs.google.com/document/d/1j92HYTOcoBJInnfnNbOCqYZhoCd_5v2opbRVurALvZI/edit?pli=1&tab=t.0)
 
