@@ -10,6 +10,8 @@ This repository is PBL3 project
 
 [Software Requirement Specification Document](https://Ayu102938.github.io/PBL3_Software_Requirement_Specification_Document/)
 
+[System Architecture Diagram](https://ayu102938.github.io/PBL3_Architecture_Diagram/)
+
 [Machine-readable-Dataset.zip](https://github.com/user-attachments/files/28530692/Machine-readable-Dataset.zip)
 
 [06.09 traffic&pedestrian data.zip](https://github.com/user-attachments/files/28778587/06.09.traffic.pedestrian.data.zip)
