@@ -6,8 +6,8 @@ from typing import Any
 
 from flask import Blueprint, jsonify, request
 
-from database import get_saved_route, list_landmarks, list_saved_routes
-from services import (
+from backend.database import get_saved_route, list_landmarks, list_saved_routes
+from backend.services import (
     MapProcessingError,
     NavigationProcessingError,
     build_map_payload,
