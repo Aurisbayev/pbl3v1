@@ -6,8 +6,8 @@ from typing import Any
 
 from flask import Blueprint, jsonify, request
 
-from utils.helpers import clean_string, error_response, parse_tags, success_response
-from utils.validation import ALLOWED_THEMES, ValidationError
+from backend.utils.helpers import clean_string, error_response, parse_tags, success_response
+from backend.utils.validation import ALLOWED_THEMES, ValidationError
 
 
 user_bp = Blueprint("user_routes", __name__, url_prefix="/api/users")
