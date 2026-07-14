@@ -7,10 +7,10 @@ from uuid import uuid4
 
 from flask import Blueprint, jsonify, request
 
-from backend.database import get_saved_route
-from backend.services import MapProcessingError, build_map_payload
-from backend.utils.helpers import error_response, success_response
-from backend.utils.validation import ValidationError, validate_route_id
+from database import get_saved_route
+from services import MapProcessingError, build_map_payload
+from utils.helpers import error_response, success_response
+from utils.validation import ValidationError, validate_route_id
 
 
 navigation_bp = Blueprint(
