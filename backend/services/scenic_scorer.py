@@ -2,9 +2,9 @@
 scenic_scorer.py
 
 Calculates a scenic score for each road segment.
-
-class ScenicScorer:
 """
+class ScenicScorer:
+
 
     def __init__(self, weights=None):
         """
