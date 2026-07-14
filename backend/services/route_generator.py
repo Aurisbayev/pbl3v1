@@ -4,7 +4,7 @@ A* route generation using scenic-adjusted edge costs.
 
 import heapq
 
-from services.scenic_scorer import ScenicScorer
+from .scenic_scorer import ScenicScorer
 
 
 class RouteGenerator:
