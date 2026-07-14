@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Iterable, Mapping
 
-from database import list_landmarks
+from backend.database import list_landmarks
 
 
 class MapProcessingError(ValueError):
