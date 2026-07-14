@@ -6,15 +6,15 @@ from typing import Any
 
 from flask import Blueprint, jsonify, request
 
-from backend.database import get_saved_route, list_landmarks, list_saved_routes
-from backend.services import (
+from database import get_saved_route, list_landmarks, list_saved_routes
+from services import (
     MapProcessingError,
     NavigationProcessingError,
     build_map_payload,
     generate_navigation_route,
 )
-from backend.utils.helpers import error_response, success_response
-from backend.utils.validation import ValidationError, validate_route_id
+from utils.helpers import error_response, success_response
+from utils.validation import ValidationError, validate_route_id
 
 
 route_bp = Blueprint("route_routes", __name__, url_prefix="/api/routes")
