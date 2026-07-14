@@ -1,9 +1,9 @@
 from flask import Flask
 from flask_cors import CORS
 
-from routes.route_routes import route_bp
-from routes.navigation_routes import navigation_bp
-from routes.user_routes import user_bp
+from backend.routes.route_routes import route_bp
+from backend.routes.navigation_routes import navigation_bp
+from backend.routes.user_routes import user_bp
 
 
 def create_app():
